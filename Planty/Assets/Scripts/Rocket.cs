@@ -7,26 +7,26 @@ using UnityEngine.UI;
 public class Rocket : MonoBehaviour
 {
 
-    public float velocity = 2f;
-    public float angle = 100f;
-    public float rocketM = 1f;
-    public float G = 1f;
+    [SerializeField]
+    private float angle = 100f, rocketM = 1f, G = 1f;
     
     private bool Alive = true;
     private bool onAir = false;
 
-    public GameObject Planets;
-    public Transform explosion;
+    private GameObject Planets;
+    private Transform explosion;
     private ParticleSystem explosionPartic;
     private Rigidbody2D rocket_body;
-
-    public Slider power_slider;
+    private Slider power_slider;
 
     void Start()
     {
+        Planets = GameObject.Find("Planets");
+        explosion = GameObject.Find("Explosion").transform;
+        power_slider = GameObject.Find("UI/Power_Slider").GetComponent<Slider>();
+
         explosionPartic = explosion.GetComponent<ParticleSystem>();
         rocket_body = gameObject.GetComponent<Rigidbody2D>();
-        //power_slider_cs = power_slider.GetComponent<PowerSlider>(); 
 
         transform.rotation = Quaternion.Euler(0, 0, angle);
 
@@ -44,25 +44,22 @@ public class Rocket : MonoBehaviour
 
             Vector3 v = planet.transform.position - transform.position;
 
-            if (Alive && onAir) rocket_body.AddForce(v.normalized * gForce);
+            if (Alive && onAir) 
+                rocket_body.AddForce(v.normalized * gForce);
         }
 
-        if (Alive && onAir) transform.rotation = Quaternion.LookRotation(Vector3.forward, rocket_body.velocity);
+        if (Alive && onAir) 
+            transform.rotation = Quaternion.LookRotation(Vector3.forward, rocket_body.velocity);
 
         changeAngle();
     }
-    
-    private bool isMouseOverUI()
-    {
-        return EventSystem.current.IsPointerOverGameObject();
-    }
 
     public void changeAngle(){
-        if (!onAir)
+        if (Input.GetMouseButton(0))
         {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-            if (Input.GetMouseButton(0) && !isMouseOverUI() && mousePos.x < transform.position.x)
+            if (!onAir && !isMouseOverUI() && mousePos.x < transform.position.x)
             {
                 Vector3 dir = mousePos - transform.position;
         
@@ -71,9 +68,9 @@ public class Rocket : MonoBehaviour
                 Quaternion rot = Quaternion.Euler(new Vector3(0, 0, a));
 
                 transform.rotation = Quaternion.RotateTowards(transform.rotation, rot, 200f * Time.deltaTime);
+                
                 angle = a;
             }
-            
         }
     }
 
@@ -81,7 +78,6 @@ public class Rocket : MonoBehaviour
         if (!onAir)
         {
             float velo = power_slider.value;
-            //power_slider_cs.add = 0;
 
             float radians = angle * Mathf.Deg2Rad;
 
@@ -95,6 +91,11 @@ public class Rocket : MonoBehaviour
             onAir = true;
         }
         
+    }
+
+    private bool isMouseOverUI()
+    {
+        return EventSystem.current.IsPointerOverGameObject();
     }
 
     private void OnCollisionEnter2D(Collision2D other)
