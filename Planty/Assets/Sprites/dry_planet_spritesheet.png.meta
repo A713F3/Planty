@@ -1,0 +1,2347 @@
+fileFormatVersion: 2
+guid: 53d9eb37c777445d593b0dfbef0597f5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 950
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a30a88eae5846cea64e88b25d2797c
+      internalID: -540947119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 950
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9182879624de49d3a4345257cea0bc9
+      internalID: 379082231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 950
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec1a9cf05c7f48c5a9f30935462f133
+      internalID: 1264871640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 950
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b307c60b5b0ba40e7be1d5b8a0c80a88
+      internalID: 2074273275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 950
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddebebf533bb4b8888f3d2cb757f04d
+      internalID: -752297711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 950
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7aa1c15fe84c4c1c8c0b980e6f88681
+      internalID: -1168060127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 950
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6893fbd306944360aed4ee9a64992ee
+      internalID: 2136717079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 950
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e0f64f2b8d142ff8aac3ee25d9a011
+      internalID: -1447623521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 950
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff52949207e24a9bb11effaf98f7812
+      internalID: 1214277713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 950
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0a33dc2b924429f8ad5bf123850621
+      internalID: 1378623190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6b6aeb665244ebaa9061887332d693
+      internalID: -487724567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac378724132b44fcbb298f990539d04
+      internalID: 267608386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e985815165f4d799daa16860b25996
+      internalID: -1759423319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d91c6a6b56b400ab8a6a4120a240ba
+      internalID: -314697629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92c36515f02546068c16ce73095c149
+      internalID: 120524241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a726898be77b84de3849b2e1ce391b52
+      internalID: -681241665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7771ff7af038d46c9b60c3ab1615799e
+      internalID: -33790136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cef93b0fefde4e26b28d9390e31ad4c
+      internalID: -1722202369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d3b9b64290b446caa1c1464621e1f3
+      internalID: 1580352190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f86e2604d944c7db966c40633b2fbc
+      internalID: -1721368106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 740
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ce5a8c74faa413983b5dffcc17719a
+      internalID: -1472496308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 740
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3068bacbff4fe45509bd0f463857aa5b
+      internalID: -1341733557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 740
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8926eb7de03d4cf793a7e78a78815fb
+      internalID: -1692938953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 740
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4f1149280b441ce98c26cd65f158cd
+      internalID: 1241232975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 740
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ec91981a37e462e8689227d1a9297c
+      internalID: 1309665802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 740
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabc1148df21b4edf8dcdc596a5c667e
+      internalID: -1619996022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 740
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b913f62a1cd46c98e330db872cd18a
+      internalID: 368295988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 740
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048e6053b9e4b41be83f8cfc41a4b2e1
+      internalID: 2132524873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 740
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c175d6ea48bc4c43b86d4ba97c61743
+      internalID: 859603129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 740
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e60488b50834cd28bfa4038f91a9a0
+      internalID: 272601955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 635
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060aa0b0470ff423ba1e7a3892fdcd5b
+      internalID: -1544192054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 635
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4807ec10ad4471ba13078ae234f180
+      internalID: -539645329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 635
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d6bae96ad8946708c84cdfd8a5156d
+      internalID: -1076151843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 635
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec9f26e1f0484f59a318ddc6b757206
+      internalID: 1339009880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 635
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5943ea484b4a743448a8f92f0c11b421
+      internalID: 949286241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 635
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a687c0d730104ed786434a1343925cd
+      internalID: 463558364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 635
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbb7ddce613143089cc0657a0843e9c
+      internalID: -1290226736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 635
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cb4d316f75544b5986e45500248c7f
+      internalID: 37179893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 635
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4ead21c71b5446e9f74e6987cc7b68
+      internalID: -1986694778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 635
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d7968ce624843a389e4ae15f486f7f
+      internalID: 2136529357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 530
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ade4502f602545b2b6ba5c633e1d196
+      internalID: 396431041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 530
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8d37202eb204c4c98dc3422ef2d468
+      internalID: 405522151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 530
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1680823e44081423b8f76780efe16b0d
+      internalID: -361079176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 530
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5f63d0b4cd248d99510386045898e5
+      internalID: 669320020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 530
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7bcebbb038e409eb474edc7a868774
+      internalID: 1612036323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 530
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68be74c5e119642e08f34805aba18aa4
+      internalID: 2141253738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 530
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad59724eeef94612aa1cae27d9cda2d
+      internalID: 1211141191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 530
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b409e158cd6a4762b670d59eaf378c0
+      internalID: 274167615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 530
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b37879737f84eb78c9b7aaab1b778e
+      internalID: 1140200005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 530
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86708a0b08a84cfc8b56f6a53a4bbb6
+      internalID: -1866489968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 425
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd350621010ba4ecb8b62a49b4b20072
+      internalID: -96518128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 425
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c01d71648d4467d989d35b093da778
+      internalID: 1565372263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 425
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590c36d9e10bb40d6958f3d1cad8e4e6
+      internalID: 404744445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 425
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4210cbbda124d6bb8666b7932b120b
+      internalID: -967503304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 425
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455327c60c7304685871bb78f5cb3692
+      internalID: -1146631518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 425
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d9b3311b5a74ee1b1b04972a7f7587
+      internalID: 339073491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 425
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dd69c4bcfd94079a28d0564acab9c1
+      internalID: 435892372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 425
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51a276d877de43adb017333f68623c9
+      internalID: -1860003894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 425
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bdf78d41fe54b8eb27b2eaa12bb911
+      internalID: -1344810518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 425
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d325779a1de4d1c8c1bc3cf66891e6
+      internalID: 832449445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 320
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898febf2e4b444712b176437d7632099
+      internalID: 1809856033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 320
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0221da003d2c9419db06796d44651f25
+      internalID: 573244326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 320
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3f9101dd1404090b1be1f9cf3bdaf4
+      internalID: 1855389607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f5d7ae3201b45beacac72b7cc54a43
+      internalID: 1209593656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 320
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de709e39e1c7847e3964f4726e6b75da
+      internalID: -1229486658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 320
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a3edd867aed4bbc8b5beb8fb395473
+      internalID: 1454150965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 320
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82175e9f586ce409ca070d9929fde63b
+      internalID: -496701101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 320
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ca61c4b967345e9a85910af3590c8f
+      internalID: -343599831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 320
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bad4947fe7664399839602043f821a0
+      internalID: 411614394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 320
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20957fa64ca5743f092813ef8805c555
+      internalID: -893641898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 215
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a49dc2dfba64c82afdb757ec643de5
+      internalID: -528556098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 215
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27a1b1cfeb3d4e75b8216f5d3e2094a
+      internalID: 888194349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 215
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1543fcb1529b04a2886358e267c104e3
+      internalID: 1200772582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 215
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3806a832b788a482aa812c1fe59e619f
+      internalID: -1139795184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 215
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9265933f969e448b5afbada6851c7984
+      internalID: 2104504973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 215
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9943ff0c58be94b33bbc3ca4881e8aa3
+      internalID: 1989993439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 215
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ad026f3041949f8a4c141ed4be0d68
+      internalID: -1202060515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 215
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a135e9d83b7c4640b4b82134539e67c
+      internalID: -377511928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 215
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2addea0e4655841169b782b925b718d4
+      internalID: 1315391042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 215
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9001e7e2d834688a3bb96dfa85a0c3
+      internalID: 110301369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 110
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc1780edb4fd47fe8f1cbf299eff9bc
+      internalID: 732282318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 110
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a83df1c4a90d4610909133014a33e10
+      internalID: -993028128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 110
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd45dfc1561742879f9820571a72337
+      internalID: -371892576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 110
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5e69c29c6514699901de9ddf1f41c2
+      internalID: -1721132261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 110
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8830bc8e7b2416597c853496d0f421
+      internalID: 1228683150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 110
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb06580c3a7d748cdbb5b75105f74c9f
+      internalID: -45892647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 110
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e788c7a5f4b445bba530dfa0095f0b
+      internalID: 91363817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 110
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca36c2dbc584450e9d8c7b73e0f4a08
+      internalID: -1930582473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 110
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f398b6cb28e439caae160c6943fd6e
+      internalID: 1032570983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 110
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fa6196d25fb4e38ba687c4aabf61de
+      internalID: 1442384436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e59475575394e14865400c51ad8705
+      internalID: 15003539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 5
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79b25a25c6814c729e2cbb1dc942363
+      internalID: 1509417771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 5
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146e936d4418e41ef9eb8eb6272226fe
+      internalID: -2130380400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 5
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405bc4b3c13e94f8a93c553759558090
+      internalID: 450099967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 5
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3b99fa72ee44c0793602c76fe6d65d
+      internalID: 1304368770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 5
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6ca45de65f14b5f89e71e66ced6571
+      internalID: 2036807855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 5
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8869640522594d88a3f8c55b625fc45
+      internalID: 1944394575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 5
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad64ee805f8394bdb971a9e67188cb69
+      internalID: 1751557431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 5
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a91675a79364bb2a8a7c4b24cca9f3
+      internalID: 1146411859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry_planet_spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 5
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c2c07b43f5046a9a878b13648d7542
+      internalID: -1673086198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      dry_planet_spritesheet_25: -1619996022
+      dry_planet_spritesheet_81: -993028128
+      dry_planet_spritesheet_9: 1378623190
+      dry_planet_spritesheet_12: -1759423319
+      dry_planet_spritesheet_57: -1860003894
+      dry_planet_spritesheet_49: -1866489968
+      dry_planet_spritesheet_98: 1146411859
+      dry_planet_spritesheet_16: -33790136
+      dry_planet_spritesheet_52: 404744445
+      dry_planet_spritesheet_85: -45892647
+      dry_planet_spritesheet_54: -1146631518
+      dry_planet_spritesheet_38: -1986694778
+      dry_planet_spritesheet_55: 339073491
+      dry_planet_spritesheet_14: 120524241
+      dry_planet_spritesheet_28: 859603129
+      dry_planet_spritesheet_71: 888194349
+      dry_planet_spritesheet_74: 2104504973
+      dry_planet_spritesheet_93: 450099967
+      dry_planet_spritesheet_79: 110301369
+      dry_planet_spritesheet_84: 1228683150
+      dry_planet_spritesheet_91: 1509417771
+      dry_planet_spritesheet_2: 1264871640
+      dry_planet_spritesheet_99: -1673086198
+      dry_planet_spritesheet_17: -1722202369
+      dry_planet_spritesheet_47: 274167615
+      dry_planet_spritesheet_10: -487724567
+      dry_planet_spritesheet_22: -1692938953
+      dry_planet_spritesheet_56: 435892372
+      dry_planet_spritesheet_26: 368295988
+      dry_planet_spritesheet_21: -1341733557
+      dry_planet_spritesheet_11: 267608386
+      dry_planet_spritesheet_32: -1076151843
+      dry_planet_spritesheet_42: -361079176
+      dry_planet_spritesheet_3: 2074273275
+      dry_planet_spritesheet_15: -681241665
+      dry_planet_spritesheet_95: 2036807855
+      dry_planet_spritesheet_44: 1612036323
+      dry_planet_spritesheet_50: -96518128
+      dry_planet_spritesheet_19: -1721368106
+      dry_planet_spritesheet_73: -1139795184
+      dry_planet_spritesheet_90: 15003539
+      dry_planet_spritesheet_72: 1200772582
+      dry_planet_spritesheet_68: 411614394
+      dry_planet_spritesheet_70: -528556098
+      dry_planet_spritesheet_33: 1339009880
+      dry_planet_spritesheet_5: -1168060127
+      dry_planet_spritesheet_13: -314697629
+      dry_planet_spritesheet_30: -1544192054
+      dry_planet_spritesheet_88: 1032570983
+      dry_planet_spritesheet_31: -539645329
+      dry_planet_spritesheet_94: 1304368770
+      dry_planet_spritesheet_6: 2136717079
+      dry_planet_spritesheet_97: 1751557431
+      dry_planet_spritesheet_82: -371892576
+      dry_planet_spritesheet_7: -1447623521
+      dry_planet_spritesheet_92: -2130380400
+      dry_planet_spritesheet_62: 1855389607
+      dry_planet_spritesheet_18: 1580352190
+      dry_planet_spritesheet_53: -967503304
+      dry_planet_spritesheet_78: 1315391042
+      dry_planet_spritesheet_64: -1229486658
+      dry_planet_spritesheet_59: 832449445
+      dry_planet_spritesheet_27: 2132524873
+      dry_planet_spritesheet_69: -893641898
+      dry_planet_spritesheet_24: 1309665802
+      dry_planet_spritesheet_48: 1140200005
+      dry_planet_spritesheet_77: -377511928
+      dry_planet_spritesheet_37: 37179893
+      dry_planet_spritesheet_86: 91363817
+      dry_planet_spritesheet_23: 1241232975
+      dry_planet_spritesheet_75: 1989993439
+      dry_planet_spritesheet_8: 1214277713
+      dry_planet_spritesheet_87: -1930582473
+      dry_planet_spritesheet_61: 573244326
+      dry_planet_spritesheet_66: -496701101
+      dry_planet_spritesheet_80: 732282318
+      dry_planet_spritesheet_39: 2136529357
+      dry_planet_spritesheet_4: -752297711
+      dry_planet_spritesheet_63: 1209593656
+      dry_planet_spritesheet_83: -1721132261
+      dry_planet_spritesheet_20: -1472496308
+      dry_planet_spritesheet_46: 1211141191
+      dry_planet_spritesheet_1: 379082231
+      dry_planet_spritesheet_29: 272601955
+      dry_planet_spritesheet_67: -343599831
+      dry_planet_spritesheet_45: 2141253738
+      dry_planet_spritesheet_65: 1454150965
+      dry_planet_spritesheet_35: 463558364
+      dry_planet_spritesheet_36: -1290226736
+      dry_planet_spritesheet_89: 1442384436
+      dry_planet_spritesheet_41: 405522151
+      dry_planet_spritesheet_51: 1565372263
+      dry_planet_spritesheet_0: -540947119
+      dry_planet_spritesheet_76: -1202060515
+      dry_planet_spritesheet_96: 1944394575
+      dry_planet_spritesheet_34: 949286241
+      dry_planet_spritesheet_43: 669320020
+      dry_planet_spritesheet_60: 1809856033
+      dry_planet_spritesheet_58: -1344810518
+      dry_planet_spritesheet_40: 396431041
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
