@@ -16,4 +16,19 @@ public class SceneManagerCS : MonoBehaviour
     {
         SceneManager.LoadScene(currentSceneName);
     }
+
+    public void Play()
+    {
+        SceneManager.LoadScene("Level1");
+    }
+
+    public void LevelsMenu()
+    {
+        SceneManager.LoadScene("LevelSelect");
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
