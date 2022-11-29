@@ -6,10 +6,26 @@ using UnityEngine.SceneManagement;
 public class SceneManagerCS : MonoBehaviour
 {
     private string currentSceneName;
+    private int levelNum;
+
     
     void Start()
     {
         currentSceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+        levelNum = SceneManager.GetActiveScene().buildIndex;
+    }
+
+    public void nextLevel()
+    {
+
+        if(currentSceneName == "Level3"){
+            MainMenu();
+        }
+        else{
+            SceneManager.LoadScene(levelNum + 1);
+        }
+
+        
     }
 
     public void RestartLevel()
