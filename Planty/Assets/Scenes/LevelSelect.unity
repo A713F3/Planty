@@ -451,7 +451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0173033a75f7145b1862d62f2e24b0f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level_count: 1
+  level_count: 3
   button_prefab: {fileID: 2608557083920020835, guid: c5130a92e725e4f24b16695e3bb2a6e2, type: 3}
 --- !u!4 &1041807682
 Transform:

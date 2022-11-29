@@ -18,12 +18,14 @@ public class Rocket : MonoBehaviour
     private ParticleSystem explosionPartic;
     private Rigidbody2D rocket_body;
     private Slider power_slider;
+    private SceneManagerCS scene_manager;
 
     void Start()
     {
         Planets = GameObject.Find("Planets");
         explosion = GameObject.Find("Explosion").transform;
         power_slider = GameObject.Find("UI/Power_Slider").GetComponent<Slider>();
+        scene_manager = GameObject.Find("SceneManager").GetComponent<SceneManagerCS>();
 
         explosionPartic = explosion.GetComponent<ParticleSystem>();
         rocket_body = gameObject.GetComponent<Rigidbody2D>();
@@ -106,6 +108,11 @@ public class Rocket : MonoBehaviour
 
             explosionPartic.Play();
             Destroy(this.gameObject, 0.5f);
+        }
+
+        if(other.transform.tag == "spacestation")
+        {
+            scene_manager.nextLevel();
         }
     }
 }
