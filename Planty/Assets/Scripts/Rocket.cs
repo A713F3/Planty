@@ -35,7 +35,7 @@ public class Rocket : MonoBehaviour
         rocket_body.mass = rocketM;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         foreach (Transform planet in Planets.transform)
         {

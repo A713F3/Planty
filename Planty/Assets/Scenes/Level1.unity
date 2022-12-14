@@ -1233,7 +1233,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6954197614241460277, guid: c7b9578d5abae7b4cb53039de775ef61, type: 3}
       propertyPath: planetM
-      value: 8
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 6954197614241460278, guid: c7b9578d5abae7b4cb53039de775ef61, type: 3}
       propertyPath: m_RootOrder
@@ -1290,7 +1290,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8507622141343406504, guid: e9a384f740f2a7141a72b0dd1093bfce, type: 3}
       propertyPath: planetM
-      value: 10
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8507622141343406507, guid: e9a384f740f2a7141a72b0dd1093bfce, type: 3}
       propertyPath: m_RootOrder

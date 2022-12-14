@@ -19,7 +19,7 @@ public class PowerSlider : MonoBehaviour
         
     }
 
-    void Update()
+    void FixedUpdate()
     {
         power_slider.value = velo;
         
