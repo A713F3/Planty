@@ -18,7 +18,7 @@ public class SceneManagerCS : MonoBehaviour
     public void nextLevel()
     {
 
-        if(currentSceneName == "Level3"){
+        if(currentSceneName == "Level5"){
             MainMenu();
         }
         else{
